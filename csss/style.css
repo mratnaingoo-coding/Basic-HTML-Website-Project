@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* Header Nav */
+.navBar{
+    margin: 10px;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.pfName{
+    display: flex;
+    justify-items: end;
+}
+.pfImg{
+    width: 50px;
+    border-radius: 50px;
+}
+.menuBar{
+    display: flexbox;
+    margin: 15px 10px 0 10px;
+}
+.textLine{
+    color: black;
+    padding: 15px 10px 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.protest{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 800;
+}
+/* Header Nav */
+/* Main*/
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 35px 10px 35px;
+}
+.pfDel{
+    text-align: center;
+}
+h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+.pfDelFont{
+    font-size: 18px;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.pfEdu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 13px;
+}
+aside{
+    padding: 25px;
+    border: 1px solid black;
+}
+h3{
+    font-size: 25px;
+    
+}
+.pfEduItem{
+    padding-left: 8px;
+
+}
+.reviewTechMain{
+    font-size: 25px;
+    padding-left: 14px;
+}
+.reviewTech{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 11px;
+}
+.reviewTechItem{
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+h4{
+    font-weight: 200;
+    font-size: 10px;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+}
+/* Main*/

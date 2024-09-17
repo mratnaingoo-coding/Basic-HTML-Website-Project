@@ -5,30 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic HTML Website Project</title>
+    <link rel="stylesheet" href="/csss/style.css">
 </head>
 
 <body>
-        <header>
+        <header class="navBar">
             <nav>
-                <img src="" class="" alt="my profile">
-                <span>Rikzil</span>
-                <a href="homepage.html">Home/ </a>
-                <a href="projects.html">Projects/ </a>
-                <a href="articles.html">Articles/ </a>
-                <a href="contact.html">Contact</a>
+                <div class="pfName">
+                    <img src="/Img/rikzil.png" class="pfImg" alt="my profile">
+                    <span class="textLine protest">Rikzil</span>
+                </div>
+                <div class="menuBar">
+                    <a href="homepage.html" class="textLine">Home</a>
+                    <a href="projects.html" class="textLine">Projects</a>
+                    <a href="articles.html" class="textLine">Articles</a>
+                    <a href="contact.html" class="textLine">Contact</a>
+                </div>
             </nav>
         </header>
 
         <main>
-            <article>
+            <article class="pfDel">
                 <h1>Frontend Developer</h1>
-                <p>html only with proper layout, no styling</p>
+                <p class="pfDelFont">html only with proper layout, no styling</p>
             </article>
 
-            <article>
+            <article class="pfEdu">
                 <aside>
                     <h3>Projects</h3>
-                    <section>
+                    <section class="pfEduItem">
                         <p>HTML Only Portfolio</p>
                         <hr>
                         <p>Calculator</p>
@@ -42,13 +47,13 @@
                 </aside>
                 <aside>
                     <h3>Work Experience</h3>
-                    <section>
+                    <section class="pfEduItem">
                         <p>roadmap.sh</p>
                         <p>Solved all the frontend projects</p>
                         <a href="#">Visit my Profile</a>
                     </section>
                     <hr>
-                    <section>
+                    <section class="pfEduItem">
                         <p>OpenSource Work</p>
                         <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
                         <a href="#">Visit my GitHub Profile</a>
@@ -56,7 +61,7 @@
                 </aside>
                 <aside>
                     <h3>Education</h3>
-                    <section>
+                    <section class="pfEduItem">
                         <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
                         <p>Courses I took:</p>
                         <ul>
@@ -74,19 +79,20 @@
                 </aside>
             </article>
 
-            <article>
-                <h3>Reviews from my Teachers</h3>
-                <section>
+            
+            <h3 class="reviewTechMain">Reviews from my Teachers</h3>
+            <article class="reviewTech">
+                <section class="reviewTechItem">
                     <p>John does was a brilliant student; always stood out with his assignments.</p>
                     <h4>Jane Doe</h4>
                     <h4>Assistant Professor</h4>
                 </section>
-                <section>
+                <section class="reviewTechItem">
                     <p>John does was a brilliant student; always stood out with his assignments.</p>
                     <h4>Jane Doe</h4>
                     <h4>Assistant Professor</h4>
                 </section>
-                <section>
+                <section class="reviewTechItem">
                     <p>John does was a brilliant student; always stood out with his assignments.</p>
                     <h4>Jane Doe</h4>
                     <h4>Assistant Professor</h4>
